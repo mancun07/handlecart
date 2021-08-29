@@ -1,17 +1,23 @@
 import Card from '../UI/Card';
 import classes from './Cart.module.css';
 import CartItem from './CartItem';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import {motion} from 'framer-motion';
+import {uiActions} from '../../store/uiSlice'
 
 const Cart = () => {
 
   const items = useSelector(state => state.cart.items)
+  const dispatch = useDispatch()
+
+  const closeHandler = () => {
+      dispatch(uiActions.toggleCart())
+  }
 
   return (
     <motion.div initial={{y: '-100vh'}} animate={{y:0}}>
     <Card className={classes.cart}>
-      <h2>Ваши покупки</h2>
+      <h2>ВАШИ ПОКУПКИ</h2>
       <ul>  
         {items.map(el => {
           return <CartItem
@@ -20,6 +26,7 @@ const Cart = () => {
         />
         })}
       </ul>
+      <span className={classes.close} onClick={closeHandler}>X</span>
     </Card>
     </motion.div>
   );
