@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/handlecart/static/css/main.8fc90d84.chunk.css",
-    "main.js": "/handlecart/static/js/main.1e1ab47f.chunk.js",
-    "main.js.map": "/handlecart/static/js/main.1e1ab47f.chunk.js.map",
+    "main.css": "/handlecart/static/css/main.73d873b0.chunk.css",
+    "main.js": "/handlecart/static/js/main.523ebbdd.chunk.js",
+    "main.js.map": "/handlecart/static/js/main.523ebbdd.chunk.js.map",
     "runtime-main.js": "/handlecart/static/js/runtime-main.fbec8cc2.js",
     "runtime-main.js.map": "/handlecart/static/js/runtime-main.fbec8cc2.js.map",
-    "static/js/2.a06a79a4.chunk.js": "/handlecart/static/js/2.a06a79a4.chunk.js",
-    "static/js/2.a06a79a4.chunk.js.map": "/handlecart/static/js/2.a06a79a4.chunk.js.map",
+    "static/js/2.b7199443.chunk.js": "/handlecart/static/js/2.b7199443.chunk.js",
+    "static/js/2.b7199443.chunk.js.map": "/handlecart/static/js/2.b7199443.chunk.js.map",
     "index.html": "/handlecart/index.html",
-    "static/css/main.8fc90d84.chunk.css.map": "/handlecart/static/css/main.8fc90d84.chunk.css.map",
-    "static/js/2.a06a79a4.chunk.js.LICENSE.txt": "/handlecart/static/js/2.a06a79a4.chunk.js.LICENSE.txt",
+    "static/css/main.73d873b0.chunk.css.map": "/handlecart/static/css/main.73d873b0.chunk.css.map",
+    "static/js/2.b7199443.chunk.js.LICENSE.txt": "/handlecart/static/js/2.b7199443.chunk.js.LICENSE.txt",
     "static/media/index.css": "/handlecart/static/media/main.db73f977.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fbec8cc2.js",
-    "static/js/2.a06a79a4.chunk.js",
-    "static/css/main.8fc90d84.chunk.css",
-    "static/js/main.1e1ab47f.chunk.js"
+    "static/js/2.b7199443.chunk.js",
+    "static/css/main.73d873b0.chunk.css",
+    "static/js/main.523ebbdd.chunk.js"
   ]
 }
